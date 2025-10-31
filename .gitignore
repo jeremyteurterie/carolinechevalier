@@ -1,0 +1,45 @@
+# WordPress Core
+/app/public/wp-admin/
+/app/public/wp-includes/
+/app/public/wp-*.php
+/app/public/xmlrpc.php
+/app/public/index.php
+/app/public/license.txt
+/app/public/readme.html
+
+# Configuration sensible
+/app/public/wp-config.php
+/conf/mysql/
+/logs/
+
+# Uploads et cache
+/app/public/wp-content/cache/
+/app/public/wp-content/upgrade/
+/app/public/wp-content/backup*/
+
+# Plugins (selon besoins)
+/app/public/wp-content/plugins/
+# Ou garder seulement les plugins custom :
+# /app/public/wp-content/plugins/*
+# /app/public/wp-content/plugins/custom-plugin/
+
+# Thèmes (garder seulement le custom)
+/app/public/wp-content/themes/twenty*/
+# Garder votre thème custom :
+!/app/public/wp-content/themes/761-main/
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+*.log
+*.wpress
+
+# Local by Flywheel
+/Local Sites.localized
+/app/sql/
+/conf/php/
+/conf/nginx/
+
+# Variables d'environnement
+.env
+.env.local

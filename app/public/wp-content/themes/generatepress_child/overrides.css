@@ -1,0 +1,104 @@
+/* =========================
+   THEME TWEAKS
+========================= */
+
+/* Header padding with responsive clamp */
+.site-header {
+  padding-inline: clamp(1rem, 0.848rem + 0.758vw, 1.5rem);
+}
+
+/* Typography wrapping */
+/* Balance headings and elements with `.balance` class */
+
+:is(h1, h2, h3, h4, h5, h6),
+.balance {
+  text-wrap: balance;
+}
+
+/* Use pretty wrapping for body text elements */
+p,
+blockquote,
+li {
+  text-wrap: pretty;
+}
+
+/* Remove bottom margin from final paragraph */
+p:last-child:last-of-type {
+  margin-bottom: 0px;
+}
+
+/* =========================
+   UTILITIES
+========================= */
+
+/* Line Clamping */
+.line-limit-3,
+.line-limit-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-limit-3 {
+  -webkit-line-clamp: 3;
+}
+
+.line-limit-2 {
+  -webkit-line-clamp: 2;
+}
+
+/* Visually Hidden (accessible to screen readers) */
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Smooth Transition Utility */
+.transition {
+  transition: all 0.25s ease-in-out;
+}
+
+/* =========================
+   GP MENU ACCESSIBILITY TWEAKS
+========================= */
+
+#site-navigation ul.sub-menu {
+  display: block;
+}
+
+#site-navigation li:hover .gp-icon svg {
+  transform: rotate(180deg);
+}
+
+#site-navigation li:hover .sub-menu {
+  visibility: visible;
+}
+
+/* =========================
+   STRETCH LINK (from Bootstrap)
+   Source: https://youtu.be/HBriBrnRlQE?si=DLiSXEiBHt6lw91l
+   Note: Only use ONE link per card or this breaks!
+========================= */
+
+.stretch-link {
+  position: relative;
+}
+
+.stretch-link a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.stretch-link a:is(:focus-visible)::after {
+  outline: 2px solid;
+}
+
+.stretch-link a:is(:hover, :focus) {
+  outline: none;
+}
