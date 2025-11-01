@@ -13,45 +13,60 @@
 /* Set Font Family */
 
 .ff-body {
-	font-family: var(--gp-font--body);
+  font-family: var(--gp-font--body);
 }
 
 .ff-heading {
-	font-family: var(--gp-font--heading);
+  font-family: var(--gp-font--heading);
 }
 
 /* Fluid Typography Scale */
 
-h1, .fs-h1 {
-	font-size: clamp(3.375rem, 3.0682rem + 1.2273vw, 4.05rem);
-	font-family: var(--gp-font--heading);
+h1,
+.fs-h1 {
+  font-size: clamp(3.375rem, 3.0682rem + 1.2273vw, 4.05rem);
+  font-family: var(--gp-font--heading);
 }
 
-h2, .fs-h2 {
-	font-size: clamp(2.5313rem, 2.3011rem + 0.9205vw, 3.0375rem);
-	font-family: var(--gp-font--heading);
+h2,
+.fs-h2 {
+  font-size: clamp(2.5313rem, 2.3011rem + 0.9205vw, 3.0375rem);
+  font-family: var(--gp-font--heading);
 }
 
-h3, .fs-h3 {
-	font-size: clamp(2.1094rem, 1.9176rem + 0.767vw, 2.5313rem);
-	font-family: var(--gp-font--heading);
+h3,
+.fs-h3 {
+  font-size: clamp(2.1094rem, 1.9176rem + 0.767vw, 2.5313rem);
+  font-family: var(--gp-font--heading);
 }
 
-h4, .fs-h4 {
-	font-size: clamp(1.6875rem, 1.5341rem + 0.6136vw, 2.025rem);
-	font-family: var(--gp-font--heading);
+h4,
+.fs-h4 {
+  font-size: clamp(1.6875rem, 1.5341rem + 0.6136vw, 2.025rem);
+  font-family: var(--gp-font--heading);
 }
 
-h5, .fs-h5 {
-	font-size: clamp(1.4063rem, 1.2784rem + 0.5114vw, 1.6875rem);
-	font-family: var(--gp-font--heading);
+h5,
+.fs-h5 {
+  font-size: clamp(1.4063rem, 1.2784rem + 0.5114vw, 1.6875rem);
+  font-family: var(--gp-font--heading);
 }
 
-h6, .fs-h6 {
-	font-size: clamp(1.2656rem, 1.1506rem + 0.4602vw, 1.5188rem);
-	font-family: var(--gp-font--heading);
+h6,
+.fs-h6 {
+  font-size: clamp(1.2656rem, 1.1506rem + 0.4602vw, 1.5188rem);
+  font-family: var(--gp-font--heading);
 }
 
-p, .fs-p {
-	font-size: clamp(0.9375rem, 0.8523rem + 0.3409vw, 1.125rem);
+p,
+.fs-p {
+  font-size: clamp(0.9375rem, 0.8523rem + 0.3409vw, 1.125rem);
+}
+
+.gbp-footer a {
+  font-weight: 500 !important;
+}
+
+.gbp-footer .copyright a {
+  font-color: #594347 !important;
 }
