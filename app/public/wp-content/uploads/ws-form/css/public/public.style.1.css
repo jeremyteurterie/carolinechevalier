@@ -10,9 +10,9 @@
 --wsf-form-color-info: #02bfe7;
 --wsf-form-color-warning: #fdb81e;
 --wsf-form-color-danger: #bb0000;
---wsf-form-border-color: transparent;
---wsf-form-border-radius: 0px;
---wsf-form-border-width: 0px;
+--wsf-form-border-color: #000000;
+--wsf-form-border-radius: 1px;
+--wsf-form-border-width: 2px;
 --wsf-form-border-style: solid;
 --wsf-form-grid-gap: 18px;
 --wsf-form-padding-horizontal: 0px;
@@ -188,7 +188,7 @@
 --wsf-field-button-color-background: var(--wsf-form-color-neutral-light-60);
 --wsf-field-button-color-background-hover: var(--wsf-form-color-neutral-light-40);
 --wsf-field-button-color-background-focus: var(--wsf-form-color-neutral-light-40);
---wsf-field-button-primary-color-background: #b9959900;
+--wsf-field-button-primary-color-background: #966C74;
 --wsf-field-button-primary-color-background-hover: #ffffff;
 --wsf-field-button-primary-color-background-focus: #ffffff;
 --wsf-field-button-secondary-color-background: var(--wsf-form-color-secondary);

@@ -138,7 +138,7 @@ p,
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* assombrissement */
+  background: rgba(0, 0, 0, 0.3); /* assombrissement */
   pointer-events: none;
   z-index: 1;
 }
@@ -146,4 +146,26 @@ p,
 .section_contact > * {
   position: relative;
   z-index: 2;
+}
+
+.copyright a {
+  text-decoration: none !important;
+  color: #594347 !important;
+  font-weight: 400 !important;
+  font-size: 0.875rem !important;
+}
+
+.copyright a:hover {
+  text-decoration: underline !important;
+}
+
+.topbar a {
+  text-decoration: none !important;
+  color: #f9f7f7 !important;
+  font-weight: 400 !important;
+  font-size: 0.875rem !important;
+}
+
+.topbar a:hover {
+  text-decoration: underline !important;
 }
