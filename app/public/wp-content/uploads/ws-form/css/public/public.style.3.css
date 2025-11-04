@@ -1,4 +1,4 @@
-:where([data-wsf-style-id="1"]) {
+:where([data-wsf-style-id="3"]) {
 --wsf-form-color-background: transparent;
 --wsf-form-color-base: var(--base-700);
 --wsf-form-color-base-contrast: var(--base-0);
@@ -89,15 +89,15 @@
 --wsf-section-legend-text-decoration: var(--wsf-form-text-decoration);
 --wsf-section-legend-text-transform: var(--wsf-form-text-transform);
 --wsf-section-legend-gap: 10px;
---wsf-field-color-background: #ffffff;
+--wsf-field-color-background: #ffffff00;
 --wsf-field-color-background-hover: var(--wsf-field-color-background);
 --wsf-field-color-background-focus: var(--wsf-field-color-background);
 --wsf-field-color-background-disabled: var(--wsf-form-color-neutral-light-80);
 --wsf-field-color-background-invalid: var(--wsf-field-color-background);
 --wsf-field-border-radius: 0px;
---wsf-field-border-width: 0px;
+--wsf-field-border-width: 2px;
 --wsf-field-border-style: solid;
---wsf-field-border-color: var(--base-400);
+--wsf-field-border-color: var(--base-700);
 --wsf-field-border-color-hover: var(--base-600);
 --wsf-field-border-color-focus: var(--brand);
 --wsf-field-border-color-disabled: var(--wsf-form-color-neutral-light-60);
@@ -139,10 +139,10 @@
 --wsf-field-invalid-feedback-gap: 5px;
 --wsf-field-label-color-background: transparent;
 --wsf-field-label-color: var(--wsf-form-color-base);
---wsf-field-label-font-family: var(--wsf-form-font-family);
---wsf-field-label-font-size: var(--wsf-form-font-size);
+--wsf-field-label-font-family: var(--gp-font--body);
+--wsf-field-label-font-size: 16px;
 --wsf-field-label-font-style: var(--wsf-form-font-style);
---wsf-field-label-font-weight: var(--wsf-form-font-weight);
+--wsf-field-label-font-weight: 500;
 --wsf-field-label-letter-spacing: var(--wsf-form-letter-spacing);
 --wsf-field-label-line-height: var(--wsf-form-line-height);
 --wsf-field-label-text-decoration: var(--wsf-form-text-decoration);
@@ -188,7 +188,7 @@
 --wsf-field-button-color-background: var(--wsf-form-color-neutral-light-60);
 --wsf-field-button-color-background-hover: var(--wsf-form-color-neutral-light-40);
 --wsf-field-button-color-background-focus: var(--wsf-form-color-neutral-light-40);
---wsf-field-button-primary-color-background: #966c7400;
+--wsf-field-button-primary-color-background: #966c74;
 --wsf-field-button-primary-color-background-hover: #ffffff;
 --wsf-field-button-primary-color-background-focus: #ffffff;
 --wsf-field-button-secondary-color-background: var(--wsf-form-color-secondary);

@@ -126,6 +126,11 @@ p,
   justify-content: center;
 }
 
+#wsf-1-sections-2 {
+  display: flex;
+  justify-content: center;
+}
+
 .section_contact {
   position: relative !important;
   background-size: cover !important;
