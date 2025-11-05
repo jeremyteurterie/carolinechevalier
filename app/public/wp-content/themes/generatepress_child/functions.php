@@ -1,4 +1,5 @@
 <?php
+
 /**
  * GeneratePress child theme functions and definitions.
  *
@@ -47,6 +48,18 @@ add_filter('block_editor_settings_all', function ($editor_settings) {
     }
     return $editor_settings;
 });
+
+
+function breadcrumb_shortcode()
+{
+    if (function_exists('bcn_display') && !is_front_page()) {
+        ob_start();
+        bcn_display();
+        return '<div class="hero-breadcrumb">' . ob_get_clean() . '</div>';
+    }
+    return '';
+}
+add_shortcode('hero_breadcrumb', 'breadcrumb_shortcode');
 
 /* ==================================================
    EDITOR EXPERIENCE

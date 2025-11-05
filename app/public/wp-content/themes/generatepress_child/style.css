@@ -174,3 +174,41 @@ p,
 .topbar a:hover {
   text-decoration: underline !important;
 }
+
+.actualite_card a {
+  text-decoration: none;
+  color: #594347;
+}
+
+/* =========================
+   FIL D'ARIANE
+========================= */
+
+.hero-breadcrumb {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  color: #594347;
+}
+
+#hero-breadcrumb {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  color: #f9fef8;
+}
+
+.hero-breadcrumb a {
+  text-decoration: none;
+  color: #594347;
+}
+
+.hero-breadcrumb a:hover {
+  color: #594347;
+  text-decoration: underline;
+}
+
+.hero-breadcrumb > span:last-child {
+  color: #594347;
+  font-weight: 600;
+}
