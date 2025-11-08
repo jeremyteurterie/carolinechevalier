@@ -210,8 +210,8 @@
 --wsf-field-button-border-color-hover: var(--wsf-form-color-neutral-light-40);
 --wsf-field-button-border-color-focus: var(--wsf-form-color-neutral-light-40);
 --wsf-field-button-primary-border-color: #ffffff;
---wsf-field-button-primary-border-color-hover: #594347;
---wsf-field-button-primary-border-color-focus: var(--wsf-form-color-primary-dark-40);
+--wsf-field-button-primary-border-color-hover: #966C74;
+--wsf-field-button-primary-border-color-focus: #966C74;
 --wsf-field-button-secondary-border-color: var(--wsf-form-color-secondary);
 --wsf-field-button-secondary-border-color-hover: var(--wsf-form-color-secondary-dark-20);
 --wsf-field-button-secondary-border-color-focus: var(--wsf-form-color-secondary-dark-40);
@@ -237,8 +237,8 @@
 --wsf-field-button-color-hover: var(--wsf-form-color-base);
 --wsf-field-button-color-focus: var(--wsf-form-color-base);
 --wsf-field-button-primary-color: #ffffff;
---wsf-field-button-primary-color-hover: #594347;
---wsf-field-button-primary-color-focus: #594347;
+--wsf-field-button-primary-color-hover: #966C74;
+--wsf-field-button-primary-color-focus: #966C74;
 --wsf-field-button-secondary-color: var(--wsf-form-color-base-contrast);
 --wsf-field-button-secondary-color-hover: var(--wsf-field-button-secondary-color);
 --wsf-field-button-secondary-color-focus: var(--wsf-field-button-secondary-color);
