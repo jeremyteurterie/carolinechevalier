@@ -8,6 +8,10 @@
  Version:      1.0
 */
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 /* TYPOGRAPHY */
 
 /* Set Font Family */
@@ -71,9 +75,8 @@ p,
   font-color: #594347 !important;
 }
 
-/* Container - transition du background */
 .competence {
-  background: #f5f5f5; /* ou votre couleur actuelle */
+  background: #f5f5f5;
   transition: background-color 1.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -298,4 +301,83 @@ p,
   opacity: 1 !important;
   transform: none !important;
   transition: none !important;
+}
+
+.card {
+  width: auto;
+  height: 28rem;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer-none;
+  position: relative;
+  color: $color-primary-white;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+
+  img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    transition: opacity 0.75s ease-out;
+  }
+
+  h3 {
+    position: absolute;
+    inset: auto auto 50px 30px;
+    margin: 0;
+    transition: inset 0.5s 0s ease-out;
+  }
+
+  .line_card {
+    position: absolute;
+    inset: auto auto 30px 30px;
+    margin: 0;
+    transition: inset 0.5s 0s ease-out;
+  }
+
+  p,
+  a {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    transition: opacity 0s ease-out;
+  }
+
+  p {
+    inset: auto auto 100px 30px;
+  }
+
+  a {
+    inset: auto auto 40px 30px;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &:hover h3 {
+    inset: auto auto 290px 30px;
+    transition: inset 0.5s ease-out;
+  }
+
+  &:hover .line_card {
+    inset: auto auto 270px 30px;
+    transition: inset 0.5s ease-out;
+  }
+
+  &:hover p,
+  &:hover a {
+    opacity: 1;
+    transition: opacity 0.5s 0.5s ease-in;
+  }
+
+  &:hover img {
+    transition: opacity 0.5s ease-in;
+    opacity: 1;
+  }
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
 }
