@@ -225,7 +225,7 @@ p,
   font-weight: 600;
 }
 
-.hero-image {
+/* .hero-image {
   clip-path: polygon(1% 100%, 100% 100%, 100% 0%, 15% 0%);
 }
 
@@ -235,11 +235,10 @@ p,
   }
 }
 
-/* Container de l'image */
 .image-wrapper {
   position: relative;
   overflow: hidden;
-}
+} */
 
 /* Badge sur l'image */
 .card-badge {
@@ -380,4 +379,28 @@ p,
 
 .material-symbols-outlined {
   vertical-align: middle;
+}
+
+/* Crée un overlay sur toute la hero section */
+.hero-video-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Noir à 50% - ajuste l'opacité */
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* S'assure que le contenu (texte, logo, boutons) est au-dessus */
+.hero-video-container > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* S'assure que le container est bien en position relative */
+.hero-video-container {
+  position: relative;
 }
