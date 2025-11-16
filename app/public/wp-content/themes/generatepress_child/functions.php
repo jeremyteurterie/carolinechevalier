@@ -344,3 +344,18 @@ function wpb_login_logo_url()
     return 'https://www.jeremyteurterie.com';
 }
 add_filter('login_headerurl', 'wpb_login_logo_url');
+
+// Désactive la génération automatique de tailles
+add_filter('intermediate_image_sizes_advanced', function ($sizes) {
+    // Désactive toutes les tailles sauf celles que tu veux garder
+    unset($sizes['thumbnail']);    // 150x150
+    unset($sizes['medium']);       // 300x300
+    unset($sizes['medium_large']); // 768x0
+    unset($sizes['large']);        // 1024x1024
+    // unset($sizes['1536x1536']);
+    // unset($sizes['2048x2048']);
+    return $sizes;
+});
+
+// Désactive le scaling automatique à 2560px (WordPress 5.3+)
+add_filter('big_image_size_threshold', '__return_false');

@@ -381,7 +381,6 @@ p,
   vertical-align: middle;
 }
 
-/* Crée un overlay sur toute la hero section */
 .hero-video-container::before {
   content: '';
   position: absolute;
@@ -389,18 +388,16 @@ p,
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3); /* Noir à 50% - ajuste l'opacité */
+  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
   pointer-events: none;
 }
 
-/* S'assure que le contenu (texte, logo, boutons) est au-dessus */
 .hero-video-container > * {
   position: relative;
   z-index: 2;
 }
 
-/* S'assure que le container est bien en position relative */
 .hero-video-container {
   position: relative;
 }
