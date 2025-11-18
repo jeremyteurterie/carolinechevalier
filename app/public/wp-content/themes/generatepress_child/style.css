@@ -421,6 +421,7 @@ p,
   text-decoration: none !important;
   color: #2e2124 !important;
   font-size: 1rem !important;
+  font-weight: 400 !important;
 }
 
 .footer_info a:hover {
