@@ -426,3 +426,10 @@ p,
 .footer_info a:hover {
   text-decoration: underline !important;
 }
+
+@media (max-width: 767px) {
+  .animate {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
