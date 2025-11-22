@@ -204,6 +204,7 @@ p,
 
 .hero-breadcrumb {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   font-size: 16px;
   color: #594347;
@@ -240,11 +241,12 @@ p,
     clip-path: none;
   }
 }
+*/
 
 .image-wrapper {
   position: relative;
   overflow: hidden;
-} */
+}
 
 /* Badge sur l'image */
 .card-badge {
