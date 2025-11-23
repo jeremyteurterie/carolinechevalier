@@ -336,6 +336,7 @@ p,
     inset: auto auto 50px 30px;
     margin: 0;
     transition: inset 0.5s 0s ease-out;
+    padding-right: 0.5rem;
   }
 
   .line_card {
@@ -354,7 +355,7 @@ p,
   }
 
   p {
-    inset: auto auto 50px 30px;
+    inset: auto auto 30px 30px;
   }
 
   a {
@@ -364,12 +365,12 @@ p,
   }
 
   &:hover h3 {
-    inset: auto auto 350px 30px;
+    inset: auto auto 320px 30px;
     transition: inset 0.5s ease-out;
   }
 
   &:hover .line_card {
-    inset: auto auto 330px 30px;
+    inset: auto auto 300px 30px;
     transition: inset 0.5s ease-out;
   }
 
