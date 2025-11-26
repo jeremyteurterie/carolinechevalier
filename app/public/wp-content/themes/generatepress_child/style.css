@@ -475,3 +475,7 @@ p,
     padding: 1em 0.25rem !important;
   }
 }
+
+.awb {
+  padding: 0 !important;
+}
